@@ -17,3 +17,5 @@ Complétez le fichier `index.html` avec les bonnes balises afin d'arriver au ré
 ![Résultat attendu](./rendu.png)
 
 N'oubliez pas de lier la feuille de styles qui se trouve dans le dossier `css`.
+
+**Note :** pour obtenir le même rendu que sur l'image, n'oubliez pas d'ajouter la _classe_ `vide` sur les cellules en question.
