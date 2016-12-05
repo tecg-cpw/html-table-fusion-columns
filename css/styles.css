@@ -1,0 +1,21 @@
+th, td {
+    border: 1px solid rgb( 153, 153, 153 );
+    background-color: #f9f9f9;
+}
+th {
+    background-color: #cfcfcf;
+}
+th, td.score {
+    text-align: center;
+}
+td.vide {
+    background-color: transparent;
+    border: none;
+}
+td.equipe {
+    width: 10em;
+}
+td.score {
+    width: 4em;
+    font-weight: bold;
+}
