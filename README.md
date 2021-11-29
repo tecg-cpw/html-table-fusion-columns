@@ -27,7 +27,7 @@ L’objectif de cet exercice est de réaliser une table avec des fusions de colo
    tableau) ;
 4. N’oubliez pas les entités pour les caractères spéciaux ;
 5. N’oubliez pas non plus de valider régulièrement votre code ;
-6. Liez la feuille de styles et ajouter les attributs *éventuellement* nécessaires pour obtenir le rendu final.
+6. Liez la feuille de styles et ajouter les attributs *éventuellement* nécessaires pour obtenir le rendu final (pour obtenir le même rendu que sur l'image,  il faut notamment ajouter la _classe_ `vide` sur les cellules en question).
 
 ### Astuce
 
@@ -98,5 +98,3 @@ va générer 8 lignes (8 balises `tr`) qui contiennent toutes un `th`avec un att
 	<td headers=""></td>
 </tr>
 ```
-
-**Note :** pour obtenir le même rendu que sur l'image, n'oubliez pas d'ajouter la _classe_ `vide` sur les cellules en question.
