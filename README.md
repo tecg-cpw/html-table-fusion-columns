@@ -12,9 +12,9 @@
 
 ## Exercice sur les tableaux
 
-Complétez le fichier `index.html` avec les bonnes balises afin d'arriver au résultat suivant :
+Complétez le fichier `index.html` avec les bonnes balises afin d'arriver au résultat *très kitsch* suivant :
 
-![Résultat attendu](./rendu.png)
+![Résultat attendu](assets-starter/rendu.png)
 
 L’objectif de cet exercice est de réaliser une table avec des fusions de colonnes.
 

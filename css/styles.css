@@ -1,21 +1,74 @@
-th, td {
-    border: 1px solid rgb( 153, 153, 153 );
-    background-color: #f9f9f9;
+body {
+    max-width: 50em;
+    margin: auto;
+    font: 18px/1.5 sans-serif;
 }
+
+h1 {
+    text-align: center;
+}
+
+h1 > span {
+    font-family: fantasy;
+    background: -webkit-linear-gradient(blue, blueviolet, fuchsia, deeppink, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1:after, h1:before {
+    content: "⚽️"
+}
+
+table {
+    width: 100%;
+}
+
+caption{
+    background-color: rgb(240,160,252);
+    padding:1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+th, td {
+    border: 1px solid rgb(153, 153, 153);
+    background-color: #f9f9f9;
+    padding: 0.5rem;
+}
+
 th {
     background-color: #cfcfcf;
 }
+
+tr:first-child th{
+    background-color: purple;
+    color: white;
+}
+
+tr:nth-child(2) th{
+    background-color: lightyellow;
+    border-color: rgba(0,0,0,.1);
+}
+
 th, td.score {
     text-align: center;
 }
+
 td.vide {
     background-color: transparent;
     border: none;
 }
+
 td.equipe {
     width: 10em;
+    border-color: rgba(0,0,0,.1)
 }
+
 td.score {
     width: 4em;
     font-weight: bold;
+    background-color: darkred;
+    color: white;
 }
