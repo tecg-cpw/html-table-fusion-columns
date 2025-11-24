@@ -9,7 +9,7 @@ h1 {
 }
 
 h1 > span {
-    font-family: fantasy;
+    font-family: sans-serif;
     background: -webkit-linear-gradient(blue, blueviolet, fuchsia, deeppink, purple);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
